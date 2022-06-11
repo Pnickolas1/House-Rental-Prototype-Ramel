@@ -39,9 +39,8 @@ if(navigator.geolocation){
       if you find yourself struggling with that, just set them as constants like this so you can keep moving! Don't get stuck on the mudd
       on small details like that! 
     */
-
-    // state = IL
-    // city = Chicago
+    state = 'IL'
+    city = 'Chicago'
 
 const getProperty = async() => {
 	console.log(city)
